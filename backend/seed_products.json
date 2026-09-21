@@ -1,0 +1,777 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Over-Ear Headphones",
+    "category": "Electronics",
+    "price": 1499,
+    "originalPrice": 2499,
+    "discount": 40,
+    "rating": 4.6,
+    "stock": 20,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Headphones</text>\n  </svg>",
+    "description": "Wireless over-ear headphones with deep bass, active noise cancellation and 30-hour battery life.",
+    "specs": {
+      "Brand": "ShopKart Audio",
+      "Connectivity": "Bluetooth 5.2",
+      "Battery": "30 hrs",
+      "Warranty": "1 Year"
+    }
+  },
+  {
+    "id": 2,
+    "name": "True Wireless Earbuds",
+    "category": "Electronics",
+    "price": 1899,
+    "originalPrice": 2999,
+    "discount": 37,
+    "rating": 4.4,
+    "stock": 35,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Earbuds</text>\n  </svg>",
+    "description": "Compact true wireless earbuds with touch controls and charging case.",
+    "specs": {
+      "Brand": "ShopKart Audio",
+      "Connectivity": "Bluetooth 5.3",
+      "Battery": "24 hrs (with case)",
+      "Warranty": "1 Year"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Smart Fitness Watch",
+    "category": "Electronics",
+    "price": 2299,
+    "originalPrice": 3999,
+    "discount": 43,
+    "rating": 4.5,
+    "stock": 18,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#232a5c'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Smart%20Watch</text>\n  </svg>",
+    "description": "AMOLED smart watch with heart-rate, SpO2 tracking and 7-day battery life.",
+    "specs": {
+      "Display": "1.4\" AMOLED",
+      "Water Resistance": "5 ATM",
+      "Battery": "7 days",
+      "Warranty": "1 Year"
+    }
+  },
+  {
+    "id": 4,
+    "name": "65W Fast Charging Power Bank",
+    "category": "Electronics",
+    "price": 1299,
+    "originalPrice": 1999,
+    "discount": 35,
+    "rating": 4.3,
+    "stock": 40,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#111536'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Power%20Bank</text>\n  </svg>",
+    "description": "20000mAh power bank with 65W PD fast charging for laptops and phones.",
+    "specs": {
+      "Capacity": "20000mAh",
+      "Output": "65W PD",
+      "Ports": "2 x USB-C, 1 x USB-A"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Party Speaker",
+    "category": "Electronics",
+    "price": 2799,
+    "originalPrice": 4499,
+    "discount": 38,
+    "rating": 4.5,
+    "stock": 15,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#3ee6a8'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Speaker</text>\n  </svg>",
+    "description": "Portable party speaker with RGB lights and 12-hour playback.",
+    "specs": {
+      "Output": "30W",
+      "Battery": "12 hrs",
+      "Waterproof": "IPX6"
+    }
+  },
+  {
+    "id": 6,
+    "name": "4K Smart LED TV 43-inch",
+    "category": "Electronics",
+    "price": 21999,
+    "originalPrice": 32999,
+    "discount": 33,
+    "rating": 4.4,
+    "stock": 9,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#0a3a5c'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Smart%20TV</text>\n  </svg>",
+    "description": "43-inch 4K UHD smart TV with built-in streaming apps and voice remote.",
+    "specs": {
+      "Resolution": "4K UHD",
+      "Screen Size": "43\"",
+      "OS": "ShopKart Smart OS"
+    }
+  },
+  {
+    "id": 7,
+    "name": "ShopKart Phone X12 (128GB)",
+    "category": "Mobiles",
+    "price": 14999,
+    "originalPrice": 18999,
+    "discount": 21,
+    "rating": 4.5,
+    "stock": 22,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#232a5c'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Phone%20X12</text>\n  </svg>",
+    "description": "6.5\" AMOLED display, 5000mAh battery, 50MP triple camera smartphone.",
+    "specs": {
+      "Display": "6.5\" AMOLED",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Battery": "5000mAh"
+    }
+  },
+  {
+    "id": 8,
+    "name": "ShopKart Phone Lite (64GB)",
+    "category": "Mobiles",
+    "price": 8999,
+    "originalPrice": 10999,
+    "discount": 18,
+    "rating": 4.2,
+    "stock": 30,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#181d47'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Phone%20Lite</text>\n  </svg>",
+    "description": "Budget-friendly smartphone with 6.1\" display and dual camera.",
+    "specs": {
+      "Display": "6.1\" IPS",
+      "RAM": "4GB",
+      "Storage": "64GB",
+      "Battery": "4500mAh"
+    }
+  },
+  {
+    "id": 9,
+    "name": "ShopKart Phone Pro Max (256GB)",
+    "category": "Mobiles",
+    "price": 29999,
+    "originalPrice": 36999,
+    "discount": 19,
+    "rating": 4.7,
+    "stock": 12,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3fd0ff'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Phone%20Pro%20Max</text>\n  </svg>",
+    "description": "Flagship smartphone with 120Hz display, 108MP camera and fast charging.",
+    "specs": {
+      "Display": "6.8\" AMOLED 120Hz",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Battery": "5500mAh"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Rugged Cover Phone (Dual SIM)",
+    "category": "Mobiles",
+    "price": 6499,
+    "originalPrice": 7999,
+    "discount": 19,
+    "rating": 4,
+    "stock": 25,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#111536'/><stop offset='100%' stop-color='#7a83ab'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Rugged%20Phone</text>\n  </svg>",
+    "description": "Durable dual-SIM phone with shockproof design and long battery backup.",
+    "specs": {
+      "Display": "6.0\" IPS",
+      "RAM": "4GB",
+      "Storage": "64GB",
+      "Battery": "5000mAh"
+    }
+  },
+  {
+    "id": 11,
+    "name": "UltraBook 14\" (i5, 16GB, 512GB SSD)",
+    "category": "Laptops",
+    "price": 54999,
+    "originalPrice": 69999,
+    "discount": 21,
+    "rating": 4.6,
+    "stock": 10,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#0a0e27'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>UltraBook%2014</text>\n  </svg>",
+    "description": "Slim and light laptop with Intel i5, 16GB RAM and 512GB SSD for everyday productivity.",
+    "specs": {
+      "CPU": "Intel i5 12th Gen",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Display": "14\" FHD"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Gaming Laptop 15.6\" (RTX, 16GB)",
+    "category": "Laptops",
+    "price": 89999,
+    "originalPrice": 109999,
+    "discount": 18,
+    "rating": 4.7,
+    "stock": 6,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#111536'/><stop offset='100%' stop-color='#ff6b6b'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Gaming%20Laptop</text>\n  </svg>",
+    "description": "High-performance gaming laptop with dedicated graphics and 144Hz display.",
+    "specs": {
+      "CPU": "Intel i7 13th Gen",
+      "GPU": "RTX 4060",
+      "RAM": "16GB",
+      "Display": "15.6\" 144Hz"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Everyday Laptop 15.6\" (Celeron, 8GB)",
+    "category": "Laptops",
+    "price": 27999,
+    "originalPrice": 34999,
+    "discount": 20,
+    "rating": 4.1,
+    "stock": 20,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#232a5c'/><stop offset='100%' stop-color='#aab2d8'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Everyday%20Laptop</text>\n  </svg>",
+    "description": "Reliable everyday laptop for browsing, study and office work.",
+    "specs": {
+      "CPU": "Intel Celeron",
+      "RAM": "8GB",
+      "Storage": "256GB SSD",
+      "Display": "15.6\" HD"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Men's Casual Cotton Shirt",
+    "category": "Fashion",
+    "price": 699,
+    "originalPrice": 1299,
+    "discount": 46,
+    "rating": 4.2,
+    "stock": 60,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#111536'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Cotton%20Shirt</text>\n  </svg>",
+    "description": "Breathable 100% cotton casual shirt, available in multiple colors.",
+    "specs": {
+      "Material": "100% Cotton",
+      "Fit": "Regular",
+      "Care": "Machine wash"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Women's Floral Summer Dress",
+    "category": "Fashion",
+    "price": 999,
+    "originalPrice": 1899,
+    "discount": 47,
+    "rating": 4.4,
+    "stock": 45,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ff6b6b'/><stop offset='100%' stop-color='#ffb648'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Summer%20Dress</text>\n  </svg>",
+    "description": "Lightweight floral print summer dress, perfect for casual outings.",
+    "specs": {
+      "Material": "Rayon",
+      "Fit": "A-line",
+      "Care": "Hand wash"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Denim Jacket Unisex",
+    "category": "Fashion",
+    "price": 1599,
+    "originalPrice": 2799,
+    "discount": 43,
+    "rating": 4.3,
+    "stock": 28,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#232a5c'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Denim%20Jacket</text>\n  </svg>",
+    "description": "Classic denim jacket with a comfortable regular fit.",
+    "specs": {
+      "Material": "Denim",
+      "Fit": "Regular",
+      "Care": "Machine wash"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Kids Graphic T-Shirt (Pack of 2)",
+    "category": "Fashion",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.1,
+    "stock": 50,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ffb648'/><stop offset='100%' stop-color='#ff6b6b'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Kids%20Tee</text>\n  </svg>",
+    "description": "Soft cotton graphic t-shirts for kids, pack of 2.",
+    "specs": {
+      "Material": "Cotton",
+      "Pack Size": "2",
+      "Care": "Machine wash"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Men's Running Sports Shoes",
+    "category": "Shoes",
+    "price": 1799,
+    "originalPrice": 2999,
+    "discount": 40,
+    "rating": 4.5,
+    "stock": 33,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3fd0ff'/><stop offset='100%' stop-color='#232a5c'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Running%20Shoes</text>\n  </svg>",
+    "description": "Lightweight running shoes with breathable mesh upper and cushioned sole.",
+    "specs": {
+      "Sole": "EVA Cushioned",
+      "Upper": "Mesh",
+      "Closure": "Lace-up"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Women's Casual Sneakers",
+    "category": "Shoes",
+    "price": 1499,
+    "originalPrice": 2499,
+    "discount": 40,
+    "rating": 4.3,
+    "stock": 27,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Sneakers</text>\n  </svg>",
+    "description": "Comfortable everyday sneakers with cushioned footbed.",
+    "specs": {
+      "Sole": "Rubber",
+      "Upper": "Canvas",
+      "Closure": "Lace-up"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Formal Leather Shoes",
+    "category": "Shoes",
+    "price": 2199,
+    "originalPrice": 3499,
+    "discount": 37,
+    "rating": 4.4,
+    "stock": 19,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#111536'/><stop offset='100%' stop-color='#7a83ab'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Formal%20Shoes</text>\n  </svg>",
+    "description": "Premium leather formal shoes for office and events.",
+    "specs": {
+      "Material": "Genuine Leather",
+      "Sole": "TPR",
+      "Closure": "Lace-up"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Building Blocks Set (300 pcs)",
+    "category": "Toys",
+    "price": 899,
+    "originalPrice": 1499,
+    "discount": 40,
+    "rating": 4.6,
+    "stock": 40,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ff6b6b'/><stop offset='100%' stop-color='#ffb648'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Building%20Blocks</text>\n  </svg>",
+    "description": "Creative building block set compatible with major brands, 300 pieces.",
+    "specs": {
+      "Pieces": "300",
+      "Age": "4+ years",
+      "Material": "ABS Plastic"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1299,
+    "originalPrice": 2199,
+    "discount": 41,
+    "rating": 4.3,
+    "stock": 24,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#ff6b6b'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>RC%20Car</text>\n  </svg>",
+    "description": "High-speed remote control car with rechargeable battery.",
+    "specs": {
+      "Speed": "20 km/h",
+      "Battery": "Rechargeable",
+      "Age": "6+ years"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Educational Puzzle Board",
+    "category": "Toys",
+    "price": 449,
+    "originalPrice": 799,
+    "discount": 44,
+    "rating": 4.5,
+    "stock": 55,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Puzzle%20Board</text>\n  </svg>",
+    "description": "Wooden educational puzzle board to boost early learning skills.",
+    "specs": {
+      "Material": "Wood",
+      "Age": "2+ years",
+      "Pieces": "20"
+    }
+  },
+  {
+    "id": 24,
+    "name": "The Art of Clean Code (Paperback)",
+    "category": "Books",
+    "price": 399,
+    "originalPrice": 599,
+    "discount": 33,
+    "rating": 4.7,
+    "stock": 70,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#181d47'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Clean%20Code</text>\n  </svg>",
+    "description": "A practical guide to writing readable, maintainable software.",
+    "specs": {
+      "Pages": "320",
+      "Language": "English",
+      "Format": "Paperback"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Modern History: A Journey (Hardcover)",
+    "category": "Books",
+    "price": 549,
+    "originalPrice": 899,
+    "discount": 39,
+    "rating": 4.4,
+    "stock": 38,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#232a5c'/><stop offset='100%' stop-color='#aab2d8'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Modern%20History</text>\n  </svg>",
+    "description": "An engaging walk through the major events that shaped the modern world.",
+    "specs": {
+      "Pages": "480",
+      "Language": "English",
+      "Format": "Hardcover"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Mystery of the Blue Harbor (Novel)",
+    "category": "Books",
+    "price": 299,
+    "originalPrice": 499,
+    "discount": 40,
+    "rating": 4.5,
+    "stock": 65,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#232a5c'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Blue%20Harbor</text>\n  </svg>",
+    "description": "A gripping mystery novel set in a quiet coastal town.",
+    "specs": {
+      "Pages": "256",
+      "Language": "English",
+      "Format": "Paperback"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Non-Stick Cookware Set (5 pcs)",
+    "category": "Home & Kitchen",
+    "price": 1699,
+    "originalPrice": 2999,
+    "discount": 43,
+    "rating": 4.4,
+    "stock": 22,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ff6b6b'/><stop offset='100%' stop-color='#111536'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Cookware%20Set</text>\n  </svg>",
+    "description": "5-piece non-stick cookware set suitable for all stovetops.",
+    "specs": {
+      "Pieces": "5",
+      "Coating": "Non-stick",
+      "Induction Compatible": "Yes"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Robotic Vacuum Cleaner",
+    "category": "Home & Kitchen",
+    "price": 8999,
+    "originalPrice": 14999,
+    "discount": 40,
+    "rating": 4.3,
+    "stock": 14,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#111536'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Robot%20Vacuum</text>\n  </svg>",
+    "description": "Smart robotic vacuum cleaner with automatic charging dock.",
+    "specs": {
+      "Battery": "2600mAh",
+      "Suction Power": "2200Pa",
+      "Dustbin Capacity": "0.6L"
+    }
+  },
+  {
+    "id": 29,
+    "name": "LED Study Lamp with USB Port",
+    "category": "Home & Kitchen",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.2,
+    "stock": 48,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3fd0ff'/><stop offset='100%' stop-color='#3ee6a8'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Study%20Lamp</text>\n  </svg>",
+    "description": "Adjustable LED study lamp with built-in USB charging port.",
+    "specs": {
+      "Light Modes": "3",
+      "Power": "10W",
+      "USB Port": "Yes"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Memory Foam Pillow (Set of 2)",
+    "category": "Home & Kitchen",
+    "price": 799,
+    "originalPrice": 1399,
+    "discount": 43,
+    "rating": 4.5,
+    "stock": 36,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#181d47'/><stop offset='100%' stop-color='#aab2d8'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Memory%20Pillow</text>\n  </svg>",
+    "description": "Ergonomic memory foam pillows for better neck support and sleep.",
+    "specs": {
+      "Material": "Memory Foam",
+      "Pack Size": "2",
+      "Cover": "Removable"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Cold-Pressed Extra Virgin Olive Oil (1L)",
+    "category": "Grocery",
+    "price": 649,
+    "originalPrice": 899,
+    "discount": 28,
+    "rating": 4.6,
+    "stock": 50,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#ffb648'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Olive%20Oil</text>\n  </svg>",
+    "description": "Premium cold-pressed extra virgin olive oil, 1 litre bottle.",
+    "specs": {
+      "Volume": "1L",
+      "Type": "Extra Virgin",
+      "Origin": "Imported"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Mixed Dry Fruits Combo (1kg)",
+    "category": "Grocery",
+    "price": 899,
+    "originalPrice": 1299,
+    "discount": 31,
+    "rating": 4.5,
+    "stock": 42,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ffb648'/><stop offset='100%' stop-color='#ff6b6b'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Dry%20Fruits</text>\n  </svg>",
+    "description": "Premium mixed dry fruits combo pack including almonds, cashews and raisins.",
+    "specs": {
+      "Weight": "1kg",
+      "Type": "Mixed",
+      "Shelf Life": "6 months"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Organic Whole Wheat Atta (5kg)",
+    "category": "Grocery",
+    "price": 349,
+    "originalPrice": 449,
+    "discount": 22,
+    "rating": 4.4,
+    "stock": 60,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#111536'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Whole%20Wheat</text>\n  </svg>",
+    "description": "Stone-ground organic whole wheat flour, 5kg pack.",
+    "specs": {
+      "Weight": "5kg",
+      "Type": "Organic",
+      "Shelf Life": "4 months"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Vitamin C Brightening Face Serum",
+    "category": "Beauty",
+    "price": 549,
+    "originalPrice": 899,
+    "discount": 39,
+    "rating": 4.5,
+    "stock": 44,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ff6b6b'/><stop offset='100%' stop-color='#ffb648'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Face%20Serum</text>\n  </svg>",
+    "description": "Vitamin C serum for brighter, even-toned skin, 30ml.",
+    "specs": {
+      "Volume": "30ml",
+      "Skin Type": "All",
+      "Key": "Vitamin C"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Herbal Shampoo & Conditioner Combo",
+    "category": "Beauty",
+    "price": 449,
+    "originalPrice": 699,
+    "discount": 36,
+    "rating": 4.3,
+    "stock": 55,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Shampoo%20Combo</text>\n  </svg>",
+    "description": "Herbal shampoo and conditioner combo for smooth, healthy hair.",
+    "specs": {
+      "Volume": "2 x 250ml",
+      "Type": "Herbal",
+      "Hair Type": "All"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Matte Finish Lipstick Set (4 Shades)",
+    "category": "Beauty",
+    "price": 649,
+    "originalPrice": 1099,
+    "discount": 41,
+    "rating": 4.4,
+    "stock": 38,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ff6b6b'/><stop offset='100%' stop-color='#232a5c'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Lipstick%20Set</text>\n  </svg>",
+    "description": "Long-lasting matte lipstick set with 4 versatile shades.",
+    "specs": {
+      "Shades": "4",
+      "Finish": "Matte",
+      "Long Lasting": "Up to 8 hrs"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Yoga Mat with Carry Strap",
+    "category": "Sports",
+    "price": 599,
+    "originalPrice": 999,
+    "discount": 40,
+    "rating": 4.5,
+    "stock": 46,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#3b6bff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Yoga%20Mat</text>\n  </svg>",
+    "description": "Anti-slip yoga mat with carry strap, ideal for home workouts.",
+    "specs": {
+      "Thickness": "6mm",
+      "Material": "NBR",
+      "Size": "183 x 61 cm"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Adjustable Dumbbell Set (10kg)",
+    "category": "Sports",
+    "price": 1799,
+    "originalPrice": 2799,
+    "discount": 36,
+    "rating": 4.4,
+    "stock": 20,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#111536'/><stop offset='100%' stop-color='#3fd0ff'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Dumbbell%20Set</text>\n  </svg>",
+    "description": "Adjustable dumbbell set for home strength training, total 10kg.",
+    "specs": {
+      "Weight": "10kg total",
+      "Material": "Cast Iron",
+      "Adjustable": "Yes"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Cricket Bat (Kashmir Willow)",
+    "category": "Sports",
+    "price": 1099,
+    "originalPrice": 1799,
+    "discount": 39,
+    "rating": 4.2,
+    "stock": 25,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ffb648'/><stop offset='100%' stop-color='#111536'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Cricket%20Bat</text>\n  </svg>",
+    "description": "Kashmir willow cricket bat suitable for tennis ball cricket.",
+    "specs": {
+      "Material": "Kashmir Willow",
+      "Weight": "1100-1200g",
+      "Size": "Full"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Polarized Aviator Sunglasses",
+    "category": "Accessories",
+    "price": 699,
+    "originalPrice": 1299,
+    "discount": 46,
+    "rating": 4.4,
+    "stock": 40,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3fd0ff'/><stop offset='100%' stop-color='#111536'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Sunglasses</text>\n  </svg>",
+    "description": "UV-protected polarized aviator sunglasses for men and women.",
+    "specs": {
+      "Lens": "Polarized",
+      "UV Protection": "100%",
+      "Frame": "Metal"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Genuine Leather Wallet",
+    "category": "Accessories",
+    "price": 499,
+    "originalPrice": 899,
+    "discount": 44,
+    "rating": 4.3,
+    "stock": 48,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#181d47'/><stop offset='100%' stop-color='#ffb648'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Leather%20Wallet</text>\n  </svg>",
+    "description": "Slim genuine leather wallet with multiple card slots.",
+    "specs": {
+      "Material": "Genuine Leather",
+      "Card Slots": "8",
+      "Closure": "Bi-fold"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Stainless Steel Analog Watch",
+    "category": "Accessories",
+    "price": 1299,
+    "originalPrice": 2199,
+    "discount": 41,
+    "rating": 4.5,
+    "stock": 30,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#232a5c'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Analog%20Watch</text>\n  </svg>",
+    "description": "Elegant stainless steel analog watch with scratch-resistant glass.",
+    "specs": {
+      "Strap Material": "Stainless Steel",
+      "Water Resistance": "3 ATM",
+      "Movement": "Quartz"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Digital Infrared Thermometer",
+    "category": "Healthcare",
+    "price": 899,
+    "originalPrice": 1399,
+    "discount": 36,
+    "rating": 4.5,
+    "stock": 33,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3ee6a8'/><stop offset='100%' stop-color='#111536'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>Thermometer</text>\n  </svg>",
+    "description": "Non-contact infrared thermometer for quick and accurate readings. Over-the-counter device, no prescription required.",
+    "specs": {
+      "Type": "Non-contact Infrared",
+      "Memory": "Last 20 readings",
+      "Battery": "2 x AAA"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Automatic Blood Pressure Monitor",
+    "category": "Healthcare",
+    "price": 1799,
+    "originalPrice": 2699,
+    "discount": 33,
+    "rating": 4.4,
+    "stock": 21,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#3b6bff'/><stop offset='100%' stop-color='#3ee6a8'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>BP%20Monitor</text>\n  </svg>",
+    "description": "Fully automatic upper-arm blood pressure monitor for home use. Over-the-counter device; consult your doctor for interpreting readings.",
+    "specs": {
+      "Type": "Upper Arm",
+      "Memory": "2 x 90 readings",
+      "Power": "AC/Battery"
+    }
+  },
+  {
+    "id": 45,
+    "name": "First Aid Kit (Home Essentials)",
+    "category": "Healthcare",
+    "price": 549,
+    "originalPrice": 899,
+    "discount": 39,
+    "rating": 4.6,
+    "stock": 37,
+    "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\n    <defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>\n      <stop offset='0%' stop-color='#ff6b6b'/><stop offset='100%' stop-color='#ffb648'/>\n    </linearGradient></defs>\n    <rect width='400' height='400' rx='36' fill='url(#g)'/>\n    <text x='50%' y='52%' font-size='30' font-family='Arial' fill='white' text-anchor='middle' dominant-baseline='middle' opacity='0.92'>First%20Aid%20Kit</text>\n  </svg>",
+    "description": "Comprehensive first aid kit with home-care essentials. Contains no prescription medicines.",
+    "specs": {
+      "Items": "40+",
+      "Case": "Water-resistant pouch",
+      "Use": "Home / Travel"
+    }
+  }
+]

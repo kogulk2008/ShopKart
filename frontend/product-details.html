@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Details — ShopKart</title>
+<link rel="icon" href="data:,">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar-placeholder"></div>
+
+<section class="section-pad" id="productDetailsWrap">
+  <div class="container container-xl">
+
+    <nav class="text-mist small mb-4" id="pdBreadcrumb"></nav>
+
+    <div class="row g-5">
+      <!-- Gallery -->
+      <div class="col-lg-5">
+        <div class="pd-gallery-main">
+          <img id="pdMainImage" src="" alt="">
+        </div>
+        <div class="pd-thumbs" id="pdThumbs"></div>
+      </div>
+
+      <!-- Info -->
+      <div class="col-lg-7">
+        <span class="product-cat" id="pdCategory"></span>
+        <h1 class="mt-2 mb-2" id="pdName" style="font-size: clamp(1.5rem, 2.6vw, 2rem);"></h1>
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <div class="rating-stars" id="pdStars"></div>
+          <span class="text-mist" id="pdRatingNum"></span>
+        </div>
+
+        <div class="d-flex align-items-baseline gap-3 mb-2">
+          <span class="price-current" style="font-size:2rem;" id="pdPrice"></span>
+          <span class="price-old" id="pdOriginalPrice"></span>
+          <span class="badge" style="background:var(--sk-coral);" id="pdDiscount"></span>
+        </div>
+        <div class="text-mist-dim small mb-1" id="pdMrpLabel"></div>
+
+        <div class="d-flex align-items-center gap-2 text-mint mb-3">
+          <i class="fa-solid fa-truck-fast"></i> <span>Free delivery on orders above ₹999</span>
+        </div>
+
+        <div class="mb-4" id="pdStockInfo"></div>
+
+        <div class="d-flex align-items-center gap-3 mb-4 flex-wrap">
+          <span class="text-mist">Quantity</span>
+          <div class="qty-selector">
+            <button id="pdQtyMinus"><i class="fa-solid fa-minus"></i></button>
+            <span class="qty-val" id="pdQtyVal">1</span>
+            <button id="pdQtyPlus"><i class="fa-solid fa-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap gap-3">
+          <button class="btn btn-sk-primary btn-lg" id="pdAddToCart"><i class="fa-solid fa-cart-plus me-2"></i>Add to Cart</button>
+          <button class="btn btn-sk-outline btn-lg" id="pdBuyNow"><i class="fa-solid fa-bolt me-2"></i>Buy Now</button>
+          <button class="btn btn-sk-ghost btn-sm-icon" id="pdWishlistBtn" style="width:52px;height:52px;"><i class="fa-regular fa-heart"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="mt-5">
+      <ul class="nav pd-tabs" id="pdTabs">
+        <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-desc">Description</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-specs">Specifications</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-reviews">Customer Reviews</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-shipping">Shipping Information</button></li>
+      </ul>
+      <div class="tab-content card-surface p-4 mt-3">
+        <div class="tab-pane fade show active" id="tab-desc"><p class="text-mist mb-0" id="pdDescription"></p></div>
+        <div class="tab-pane fade" id="tab-specs">
+          <table class="table table-sk mb-0" id="pdSpecsTable"></table>
+        </div>
+        <div class="tab-pane fade" id="tab-reviews">
+          <div id="pdReviewsList"></div>
+        </div>
+        <div class="tab-pane fade" id="tab-shipping">
+          <ul class="text-mist">
+            <li>Standard delivery in 3–6 business days across India.</li>
+            <li>Free delivery on orders above ₹999; a flat ₹79 fee applies below that.</li>
+            <li>Easy 7-day returns on eligible items — see our Returns Policy.</li>
+            <li>Cash on Delivery available in most locations.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related products -->
+    <div class="mt-5">
+      <div class="section-heading"><h2 class="mt-2">You Might Also Like</h2></div>
+      <div class="row g-4" id="pdRelatedGrid"></div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/products.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/app.js"></script>
+<script>
+  let PD_PRODUCT = null;
+  let PD_QTY = 1;
+
+  function pdSampleReviews(product){
+    const names = ['Aravind K.', 'Priya S.', 'Rahul M.', 'Sneha R.'];
+    const texts = [
+      'Great quality for the price, exactly as described. Would buy again.',
+      'Works well, delivery was fast. Packaging could be a bit better.',
+      'Very satisfied with this purchase — matches the listing perfectly.',
+      'Good value overall, though I expected slightly better finish.'
+    ];
+    return names.map((n, i) => ({ name: n, rating: Math.max(3, Math.min(5, Math.round(product.rating) - (i % 2))), text: texts[i] }));
+  }
+
+  function loadProductDetails(){
+    const params = new URLSearchParams(location.search);
+    const id = params.get('id');
+    const product = getProductById(id);
+    if(!product){
+      document.getElementById('productDetailsWrap').innerHTML = `<div class="container text-center py-5"><h3>Product not found</h3><a href="products.html" class="btn btn-sk-primary mt-3">Browse Products</a></div>`;
+      return;
+    }
+    PD_PRODUCT = product;
+    trackRecentlyViewed(product.id);
+
+    document.title = `${product.name} — ShopKart`;
+    document.getElementById('pdBreadcrumb').innerHTML = `<a href="index.html">Home</a> / <a href="products.html?category=${encodeURIComponent(product.category)}">${product.category}</a> / <span class="text-white">${product.name}</span>`;
+    document.getElementById('pdCategory').textContent = product.category;
+    document.getElementById('pdName').textContent = product.name;
+    document.getElementById('pdStars').innerHTML = renderStars(product.rating);
+    document.getElementById('pdRatingNum').textContent = `${product.rating} rating`;
+    document.getElementById('pdPrice').textContent = `₹${product.price.toLocaleString('en-IN')}`;
+    document.getElementById('pdOriginalPrice').textContent = product.originalPrice ? `MRP ₹${product.originalPrice.toLocaleString('en-IN')}` : '';
+    document.getElementById('pdDiscount').textContent = product.discount ? `${product.discount}% OFF` : '';
+    document.getElementById('pdDescription').textContent = product.description;
+
+    const stockEl = document.getElementById('pdStockInfo');
+    stockEl.innerHTML = product.stock > 0
+      ? `<span class="text-mint"><i class="fa-solid fa-circle-check me-1"></i>In stock (${product.stock} available)</span>`
+      : `<span class="text-danger"><i class="fa-solid fa-triangle-exclamation me-1"></i>Out of stock</span>`;
+
+    document.getElementById('pdMainImage').src = product.image;
+    document.getElementById('pdMainImage').alt = product.name;
+    document.getElementById('pdThumbs').innerHTML = [product.image, product.image, product.image].map((img, i) => `
+      <div class="thumb ${i===0?'active':''}" onclick="document.getElementById('pdMainImage').src='${img}'; document.querySelectorAll('.pd-thumbs .thumb').forEach(t=>t.classList.remove('active')); this.classList.add('active');">
+        <img src="${img}" alt="thumb">
+      </div>`).join('');
+
+    const specsTable = document.getElementById('pdSpecsTable');
+    const specs = product.specs || {};
+    const specKeys = Object.keys(specs);
+    specsTable.innerHTML = specKeys.length
+      ? specKeys.map(k => `<tr><td class="text-mist" style="width:220px;">${k}</td><td>${specs[k]}</td></tr>`).join('')
+      : `<tr><td class="text-mist-dim">No additional specifications provided for this product.</td></tr>`;
+
+    document.getElementById('pdReviewsList').innerHTML = pdSampleReviews(product).map(r => `
+      <div class="review-item">
+        <div class="d-flex justify-content-between">
+          <strong>${r.name}</strong>
+          <span class="rating-stars small">${renderStars(r.rating)}</span>
+        </div>
+        <p class="text-mist mb-0 mt-1">${r.text}</p>
+      </div>`).join('');
+
+    updateWishlistBtn();
+    document.getElementById('pdAddToCart').disabled = product.stock <= 0;
+    document.getElementById('pdBuyNow').disabled = product.stock <= 0;
+
+    const related = getProducts().filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
+    renderProductGrid(document.getElementById('pdRelatedGrid'), related, 'No related products found.');
+  }
+
+  function updateWishlistBtn(){
+    const active = isInWishlist(PD_PRODUCT.id);
+    const btn = document.getElementById('pdWishlistBtn');
+    btn.classList.toggle('active', active);
+    btn.innerHTML = `<i class="fa-${active ? 'solid' : 'regular'} fa-heart"></i>`;
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('pdQtyMinus').addEventListener('click', () => {
+      if(PD_QTY > 1) PD_QTY--;
+      document.getElementById('pdQtyVal').textContent = PD_QTY;
+    });
+    document.getElementById('pdQtyPlus').addEventListener('click', () => {
+      if(PD_PRODUCT && PD_QTY < PD_PRODUCT.stock) PD_QTY++;
+      document.getElementById('pdQtyVal').textContent = PD_QTY;
+    });
+    document.getElementById('pdAddToCart').addEventListener('click', async () => {
+      if(!isLoggedIn()){
+        showToast('Please login to add items to your cart.', 'info');
+        setTimeout(() => location.href = 'login.html?redirect=' + encodeURIComponent(location.pathname + location.search), 900);
+        return;
+      }
+      const ok = await addToCart(PD_PRODUCT.id, PD_QTY);
+      if(ok) showToast(`${PD_PRODUCT.name} added to cart`, 'success');
+    });
+    document.getElementById('pdBuyNow').addEventListener('click', async () => {
+      if(!isLoggedIn()){
+        showToast('Please login to continue.', 'info');
+        setTimeout(() => location.href = 'login.html?redirect=' + encodeURIComponent(location.pathname + location.search), 900);
+        return;
+      }
+      const ok = await addToCart(PD_PRODUCT.id, PD_QTY);
+      if(ok) location.href = 'checkout.html';
+    });
+    document.getElementById('pdWishlistBtn').addEventListener('click', async () => {
+      await handleWishlistToggle(null, PD_PRODUCT.id);
+      updateWishlistBtn();
+    });
+  });
+
+  onDataReady(loadProductDetails);
+</script>
+</body>
+</html>

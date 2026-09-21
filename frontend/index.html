@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopKart — Everything You Need. One Smart Marketplace.</title>
+<meta name="description" content="ShopKart is a modern, original multi-category marketplace demo.">
+<link rel="icon" href="data:,">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar-placeholder"></div>
+
+<!-- HERO -->
+<section class="sk-hero">
+  <div class="container container-xl">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="eyebrow-chip"><span class="dot"></span>Now with smart recommendations</span>
+        <h1 class="mt-3 mb-3">Everything You Need. <span class="text-gradient">One Smart Marketplace.</span></h1>
+        <p class="lead">Discover products you'll love, compare prices, and shop effortlessly — all in one place designed around you.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="products.html" class="btn btn-sk-primary btn-lg"><i class="fa-solid fa-compass me-2"></i>Explore Products</a>
+          <a href="deals.html" class="btn btn-sk-outline btn-lg"><i class="fa-solid fa-bolt me-2"></i>View Deals</a>
+        </div>
+        <div class="d-flex flex-wrap gap-4 mt-5">
+          <div class="sk-stat"><span class="num text-gradient">45+</span><div class="label">Curated products</div></div>
+          <div class="sk-stat"><span class="num text-gradient">13</span><div class="label">Categories</div></div>
+          <div class="sk-stat"><span class="num text-gradient">4.5★</span><div class="label">Avg. rating</div></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sk-hero-visual">
+          <div class="sk-hero-orb"></div>
+          <div class="floating-card fc-1">
+            <div class="d-flex align-items-center gap-2 mb-2"><i class="fa-solid fa-headphones text-cyan"></i><strong>Wireless Headphones</strong></div>
+            <div class="d-flex justify-content-between"><span class="price-current">₹1,499</span><span class="badge" style="background:var(--sk-coral);">40% OFF</span></div>
+          </div>
+          <div class="floating-card fc-2">
+            <div class="d-flex align-items-center gap-2 mb-2"><i class="fa-solid fa-mobile-screen text-cyan"></i><strong>Phone X12</strong></div>
+            <div class="rating-stars small">★★★★★ <span class="text-mist">4.5</span></div>
+          </div>
+          <div class="floating-card fc-3">
+            <div class="d-flex align-items-center gap-2 mb-2"><i class="fa-solid fa-truck-fast text-cyan"></i><strong>Free Delivery</strong></div>
+            <div class="text-mist small">On orders above ₹999</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section-pad">
+  <div class="container container-xl">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow-chip"><span class="dot"></span>Browse</span>
+        <h2 class="mt-2">Shop by Category</h2>
+      </div>
+      <a href="products.html" class="btn btn-sk-ghost">View All <i class="fa-solid fa-arrow-right ms-1"></i></a>
+    </div>
+    <div class="row g-3" id="categoryGrid"></div>
+  </div>
+</section>
+
+<!-- FLASH DEALS -->
+<section class="section-pad pt-0">
+  <div class="container container-xl">
+    <div class="deal-banner mb-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <span class="eyebrow-chip mb-3"><span class="dot"></span>Flash Deals</span>
+          <h2 class="mt-2">Weekend Mega Sale — Up to 60% OFF</h2>
+          <p class="text-mist mb-4">Handpicked deals across every category. Grab them before the timer runs out.</p>
+          <a href="deals.html" class="btn btn-sk-primary">Shop Now <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        </div>
+        <div class="col-lg-5">
+          <div class="text-mist mb-2">Deal ends in</div>
+          <div class="countdown" id="homeCountdown"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="section-pad pt-0">
+  <div class="container container-xl">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow-chip"><span class="dot"></span>Handpicked</span>
+        <h2 class="mt-2">Featured Products</h2>
+      </div>
+      <a href="products.html" class="btn btn-sk-ghost">See All <i class="fa-solid fa-arrow-right ms-1"></i></a>
+    </div>
+    <div class="row g-4" id="featuredGrid"></div>
+  </div>
+</section>
+
+<!-- TRENDING NOW -->
+<section class="section-pad pt-0">
+  <div class="container container-xl">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow-chip"><span class="dot"></span>Popular right now</span>
+        <h2 class="mt-2">Trending Now</h2>
+      </div>
+    </div>
+    <div class="scroll-row" id="trendingRow"></div>
+  </div>
+</section>
+
+<!-- RECENTLY VIEWED -->
+<section class="section-pad pt-0">
+  <div class="container container-xl">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow-chip"><span class="dot"></span>Continue where you left off</span>
+        <h2 class="mt-2">Recently Viewed</h2>
+      </div>
+    </div>
+    <div class="row g-4" id="recentlyViewedGrid"></div>
+  </div>
+</section>
+
+<!-- RECOMMENDED -->
+<section class="section-pad pt-0">
+  <div class="container container-xl">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow-chip"><span class="dot"></span>Just for you</span>
+        <h2 class="mt-2">Recommended For You</h2>
+      </div>
+    </div>
+    <div class="row g-4" id="recommendedGrid"></div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/products.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/app.js"></script>
+<script>
+  onDataReady(() => {
+    document.getElementById('categoryGrid').innerHTML = SK_CATEGORIES.map(categoryCardHTML).join('');
+
+    const all = getProducts();
+    const featured = [...all].sort((a,b) => b.rating - a.rating).slice(0, 8);
+    renderProductGrid(document.getElementById('featuredGrid'), featured);
+
+    const trending = [...all].sort((a,b) => b.discount - a.discount).slice(0, 10);
+    document.getElementById('trendingRow').innerHTML = trending.map(p => productCardHTML(p)).join('');
+
+    renderRecentlyViewed('recentlyViewedGrid');
+    renderRecommended('recommendedGrid');
+
+    startCountdown('homeCountdown', 8);
+  });
+</script>
+</body>
+</html>
