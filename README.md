@@ -54,28 +54,3 @@ cd backend
 pip install -r requirements.txt
 python app.py
 
-#### RESULT
-
-ShopKart demonstrates a complete full-stack e-commerce workflow.
-Technologies
-HTML5
-CSS3
-JavaScript
-Bootstrap 5
-Python
-Flask
-SQLAlchemy
-SQLite
-JWT
-Razorpay Test Mode
-Main Features
-Customer authentication
-Product search and filtering
-Shopping cart
-Wishlist
-Checkout
-Test payment
-Order tracking
-Seller dashboard
-Product management
-Order status management
